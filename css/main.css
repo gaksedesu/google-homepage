@@ -1,0 +1,18 @@
+#logo {
+    display: block;
+    margin: auto;
+}
+
+#forms {
+    width: 40%;
+    margin: auto;
+}
+
+#search {
+    width: 100%;
+}
+
+#buttons {
+    width: max-content;
+    margin: auto;
+}
