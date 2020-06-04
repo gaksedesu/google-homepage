@@ -9,7 +9,15 @@
         <meta charset="utf-8">
     </head>
     <body>
-    <div>
+    <div id="content">
+        <div id="navbar">
+            <ul id="upper-navbar">
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Imágenes</a></li>
+                <li><a href="">Apps</a></li>
+                <li><input id="button-iniciar" type="submit" value="Iniciar sesión"></li>
+            </ul>
+        </div>
         <div>
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="google logo picture">
@@ -20,11 +28,25 @@
                 <label for="search"></label>
                 <input type="text" id="search" name="user-search">
                 <div id="buttons">                
-                <input type="submit" value="Google search">
-                <input type="submit" value="I feel lucky">
+                <input id="buttons-search" type="submit" value="Buscar con Google">
+                <input id="buttons-search" type="submit" value="Me siento con suerte">
                 </div>                
             </form>
         </div>
+
+        <footer id="footer">
+            <ul id="footer-left">
+                <li><a class="foot" href="">Publicidad</a></li>
+                <li><a class="foot" href="">Negocios</a></li>
+                <li><a class="foot" href="">Sobre Google</a></li>
+                <li><a class="foot" href="">Cómo funciona la Búsqueda</a></li>
+            </ul>
+            <ul id="footer-right">
+                <li><a class="foot" href="">Privacidad</a></li>
+                <li><a class="foot" href="">Condiciones</a></li>
+                <li><a class="foot" href="">Preferencias</a></li>
+            </ul>
+        </footer>
 
         
     </div>
