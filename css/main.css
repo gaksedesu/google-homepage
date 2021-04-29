@@ -75,7 +75,6 @@ li {
     padding: 0.8em;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    margin-bottom: ;
     border-style: none;
     color: rgb(124, 124, 124)y;
     font-size: 0.9em;
@@ -112,4 +111,32 @@ li {
 
 a.foot {
     color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    #forms {
+        width: 80%;
+    }
+
+    #navbar {
+        margin: auto;
+        margin-bottom: 30%;
+    }
+
+    #buttons-search {
+        font-size: 0.8em;
+    }
+
+    #footer-left {
+        height: 10%;
+    }
+
+    #footer-right {
+        height: 10%;
+    }
 }
